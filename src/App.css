@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+}
+
+
+.mydiv{
+  height: 30px;
+  margin: 30px 10%;
+  box-shadow: 1px 1px 5px gray;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.mydiv input{
+  width: 60%;
+  margin: 0 20px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.mydiv button{
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #96B6C5;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+  margin: 5px;
+}
